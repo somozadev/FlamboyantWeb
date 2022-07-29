@@ -1,0 +1,8 @@
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  color: rgb(188, 149, 237);
+  font-family: 'Nunito';
+  font-size: 5px;
+}

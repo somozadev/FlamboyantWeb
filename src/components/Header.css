@@ -1,0 +1,71 @@
+.header {
+  background: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  top: 0;
+  width: 100%;
+}
+
+.appbar {
+  background: none;
+  font-family: 'Nunito';
+}
+.wrapper {
+  width: 90%;
+  background: none;
+  margin: 0 auto;
+}
+.download-whitepaper {
+  border-radius: 40px;
+  font-family: 'Nunito';
+  font-size: 1.5rem;
+  padding: 15px 15px 15px 15px;
+  background-color: rgb(131, 80, 241);
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+}
+.header-text {
+  color: rgb(255, 255, 255);
+
+  font-family: 'Nunito';
+  max-width: 600px;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 0vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  color: white;
+}
+.icon-godown {
+  color: white;
+  transition: color 0.5s;
+}
+.title {
+  flex-grow: 1;
+  font-size: xx-large;
+  background: none;
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: x-large;
+  }
+
+  .header-text {
+    font-size: 1rem;
+    padding: 10px 10px 10px 10px;
+  }
+}
+.color-title {
+  color: rgb(131, 80, 241);
+}

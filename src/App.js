@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+import React from 'react';
+import '@mui/material'
 import './App.css';
+import { CssBaseline } from '@mui/material';
+
+import Header from './components/Header';
+import Navbar from './components/Navbar';
+import MainInfo from './components/MainInfo';
+import Footer from './components/Footer';
+import Faq from './components/Faq';
+import Staff from './components/Staff';
+import About from './components/About';
+import ImageSliderGroup from './components/ImageSliderGroup';
+import FlamboxPrizes from './components/FlamboxPrizes';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='root'>
+      <CssBaseline />
+      <Navbar/> 
+      <Header />
+      <About />
+      <ImageSliderGroup/>
+      {/* <MainInfo /> */}
+      <Faq />
+      <FlamboxPrizes />
+      <Staff />
+      <Footer />
     </div>
   );
 }

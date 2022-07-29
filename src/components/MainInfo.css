@@ -1,0 +1,30 @@
+.MainInfo {
+  min-height: 100vh;
+  /* background-image: url('../../public/assets/bg2.png');
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.spacer {
+  padding: 15vh 15vh;
+}
+.test {
+  text-align: center;
+  justify-content: center;
+  font-size: 6rem;
+  color: rgb(255, 255, 255);
+  font-family: 'Nunito';
+  min-height: 20vh;
+  max-width: 2000px;
+  width: 100%;
+
+  margin: 0 auto;
+  border-radius: 400px;
+  border: solid 5px rgb(255, 255, 255);
+  background-color: rgba(131, 80, 241, 0.2);
+}
+
+@media (max-width: 600px) {
+  .test {
+    font-size: 3vh;
+  }
+}
